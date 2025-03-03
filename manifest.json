@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Property Cost Calculator",
+    "version": "1.0",
+    "description": "Extracts and calculates property monthly costs.",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {}
+  }
+  
